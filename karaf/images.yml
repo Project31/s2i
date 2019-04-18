@@ -2,7 +2,8 @@
 fish-pepper:
   params:
     - base
-  name: "fabric8/s2i-karaf"
+    - arch
+  name: "project31/s2i-karaf"
   build: "2.3.0"
 
 # Used for escaping in 'agent-bond-opts' where the same delimiters are used
@@ -31,3 +32,8 @@ config:
         jolokia: 1.5.0
         karaf: "6.3.0.redhat-187"
         jmxexporter: "0.10"
+  arch:
+    amd64:
+      dockerOrg: "p31amd64"
+    arm64v8:
+      dockerOrg: "p31arm64v8"

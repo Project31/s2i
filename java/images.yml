@@ -2,7 +2,8 @@
 fish-pepper:
   params:
     - base
-  name: "fabric8/s2i-java"
+    - arch
+  name: "project31/s2i-java"
   build: "3.1.0"
 
 config:
@@ -62,3 +63,8 @@ config:
         maven: "3.3.3-1.el7"
         jolokia: 1.5.0
         jmxexporter: "0.10"
+  arch:
+    amd64:
+      dockerOrg: "p31amd64"
+    arm64v8:
+      dockerOrg: "p31arm64v8"

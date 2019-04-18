@@ -1,0 +1,12 @@
+docker manifest create project31/s2i-java-centos:3.1.0 p31amd64/s2i-java-centos-amd64:3.1.0 p31arm64v8/s2i-java-centos-arm64v8:3.1.0
+docker manifest annotate project31/s2i-java-centos:3.1.0 p31arm64v8/s2i-java-centos-arm64v8:3.1.0 --os linux --arch arm64 --variant armv8
+docker manifest push project31/s2i-java-centos:3.1.0
+
+docker manifest create project31/s2i-java-centos-java11:3.1.0 p31amd64/s2i-java-centos-java11-amd64:3.1.0 p31arm64v8/s2i-java-centos-java11-arm64v8:3.1.0
+docker manifest annotate project31/s2i-java-centos-java11:3.1.0 p31arm64v8/s2i-java-centos-java11-arm64v8:3.1.0 --os linux --arch arm64 --variant armv8
+docker manifest push project31/s2i-java-centos-java11:3.1.0
+
+docker manifest create project31/s2i-java-fedora-java11:3.1.0 p31amd64/s2i-java-fedora-java11-amd64:3.1.0 p31arm64v8/s2i-java-fedora-java11-arm64v8:3.1.0
+docker manifest annotate project31/s2i-java-fedora-java11:3.1.0 p31arm64v8/s2i-java-fedora-java11-arm64v8:3.1.0 --os linux --arch arm64 --variant armv8
+docker manifest push project31/s2i-java-fedora-java11:3.1.0
+

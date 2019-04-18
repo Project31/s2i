@@ -1,0 +1,2 @@
+docker push p31amd64/s2i-karaf-centos-amd64:2.3.0
+docker push p31arm64v8/s2i-karaf-centos-arm64v8:2.3.0
