@@ -1,4 +1,5 @@
-FROM centos:7
+FROM p31arm64v8/centos:7.6.1810
+COPY qemu-aarch64-static /usr/bin/
 
 
 MAINTAINER Dhiraj Bokde <dhirajsb@gmail.com>

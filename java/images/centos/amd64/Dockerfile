@@ -1,4 +1,4 @@
-FROM centos:7
+FROM p31amd64/centos:7.6.1810
 
 
 ARG EXPOSE_PORT=8080

@@ -24,7 +24,7 @@ config:
         jmxexporter: "0.3.1"
     centos-java11:
       withGradle: true
-      from: "centos:7"
+      from: "centos:7.6.1810"
       user: "jboss"
       home: "/opt/jboss"
       javaSecurity: "/usr/lib/jvm/java/conf/security/java.security"
@@ -38,7 +38,7 @@ config:
         jmxexporter: "0.3.1"
     centos:
       withGradle: true
-      from: "centos:7"
+      from: "centos:7.6.1810"
       user: "jboss"
       home: "/opt/jboss"
       javaSecurity: "/usr/lib/jvm/java/jre/lib/security/java.security"

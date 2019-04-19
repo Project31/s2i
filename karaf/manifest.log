@@ -2,4 +2,3 @@ docker manifest create project31/s2i-karaf-centos:2.3.0 p31amd64/s2i-karaf-cento
 docker manifest annotate project31/s2i-karaf-centos:2.3.0 p31arm64v8/s2i-karaf-centos-arm64v8:2.3.0 --os linux --arch arm64 --variant armv8
 docker manifest push project31/s2i-karaf-centos:2.3.0
 
-

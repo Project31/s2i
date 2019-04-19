@@ -1,4 +1,4 @@
-FROM fedora:29
+FROM p31amd64/fedora:29
 
 
 ARG EXPOSE_PORT=8080

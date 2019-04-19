@@ -1,4 +1,4 @@
-FROM jboss/openjdk18-rhel7:1.1-7
+FROM p31amd64/jboss/openjdk18-rhel7:1.1-7
 
 
 MAINTAINER Dhiraj Bokde <dhirajsb@gmail.com>

@@ -1,4 +1,4 @@
-FROM fedora:29
+FROM p31arm64v8/fedora:29
 COPY qemu-aarch64-static /usr/bin/
 
 

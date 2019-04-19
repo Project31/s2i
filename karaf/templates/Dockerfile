@@ -1,7 +1,7 @@
 {{
   var mavenRepo = fp.config.base.mavenRepo;
   var mavenVersion = fp.config.base.version.maven;
-}}FROM {{= fp.config.base.from }}
+}}FROM {{= fp.config.arch.dockerOrg + "/" + fp.config.base.from }}
 {{= fp.block("qemu-lib-" + fp.param.arch,'commands',{'fp-bin-files' : true}) || ''}}
 
 MAINTAINER Dhiraj Bokde <dhirajsb@gmail.com>

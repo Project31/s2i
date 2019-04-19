@@ -13,7 +13,7 @@ abSepClosed: "}}"
 config:
   base:
     centos:
-      from: "centos:7"
+      from: "centos:7.6.1810"
       user: "jboss"
       home: "/opt/jboss"
       description: "CentOS S2I Karaf builder image with OpenJDK 8"

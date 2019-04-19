@@ -1,4 +1,4 @@
-FROM centos:7
+FROM p31amd64/centos:7.6.1810
 
 
 MAINTAINER Dhiraj Bokde <dhirajsb@gmail.com>

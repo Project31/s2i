@@ -1,4 +1,4 @@
-FROM jboss/openjdk18-rhel7:1.1-7
+FROM p31arm64v8/jboss/openjdk18-rhel7:1.1-7
 COPY qemu-aarch64-static /usr/bin/
 
 
